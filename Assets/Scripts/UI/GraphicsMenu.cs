@@ -12,7 +12,7 @@ public class GraphicsMenu : MonoBehaviour
     {
         UIManager.instance.ShowScreen("Options Menu");
     }
-
+    
     void Start()
     {
         AA.onValueChanged.AddListener(delegate
